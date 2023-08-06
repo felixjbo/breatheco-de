@@ -1,0 +1,121 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felix
+    last_name: Jimenez Boza
+    
+    # Define yourself in 4-5 words
+    motto: Inspiration exists, but it has to find you working
+    
+    # focus
+    focus: Data, data, data.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have a strong science and mathematical mindset, as my first career is Materials Science and Engineering. Soon I recognized that I am better at computers so here I am.
+
+      Now I am a student of Systems Engineering and also taking this Data Science bootcamp, that is where I want to put my focus now and in the near future.
+
+      My current work is very related to this as a Data Analyst in Google's customer service. Also, I have been involved in several volunteering projects thoughout my life.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/106713963?s=400&u=091dc1768c5aecae3ba51c847a66478cd32fb3d1&v=4
+
+    # Contact Information
+    email: felixjb13@gmail.com #optional
+    phone: +506 8764 0897 #optional
+    website: https://github.com/felixjbo #optional
+    linkedin: felijxbo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: felixjbo
+    
+    #twitter: 'webjeda' #optional
+    stack-overflow: # 22348860/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Playing soccer
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Computer Science degree
+      university: Universidad Americana
+      # optional
+      university_logo: https://seeklogo.com/images/U/UAM_-_Universidad_Americana-logo-9B0C2E15FF-seeklogo.com.png
+      time: 2022-2024
+      #details: |
+
+
+    - degree: Materials Science and Engineering
+      university: Tecnologico de Costa Rica
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Firma_TEC.svg/1200px-Firma_TEC.svg.png
+      time: 2007 - 2011
+      #details: |
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Data Analyst
+      time: 2019 - Present
+      company: Concentrix on behalf of Google
+      # optional
+      company_logo: https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png
+      #details: |
+
+    - role: Manufacturing Engineering Intern
+      time: 2018 - 2019
+      company: Boston Scientific
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Boston_Scientific_Logo.svg/1200px-Boston_Scientific_Logo.svg.png
+      #details: |
+
+# Your project portfolio
+#projects:
+ #   intro: >
+  #    You can list your side projects or open source libraries in this
+   #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #  Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    #assignments:
+     # - title: Velocity
+      #  # optional
+       # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python & Pandas & Numpy
+        level: 50%
+
+      - name: SQL
+        level: 40%
+
+      - name: Google Sheets
+        level: 98%
